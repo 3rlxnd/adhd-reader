@@ -1,0 +1,8 @@
+#converter {
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
