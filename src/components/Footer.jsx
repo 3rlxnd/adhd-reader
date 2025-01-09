@@ -1,3 +1,5 @@
+import './Footer.css'
+
 function Footer() {
     const handleChange = (event) => {
         setText(event.target.value);

@@ -4,11 +4,13 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px 50px;
+    padding: 30px;
+    font-size: 20px;
 }
 
 #logo {
-    width: 40px;
+    font-size: 30px;
+    /* color: var(--logo-color); */
 }
 
 nav {
@@ -16,16 +18,16 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 50px;
+    gap: 20px;
 }
 
 .nav_link {
-    font-size: 14px;
+    font-size: 20px;
     text-decoration: none;
-    color: #A7A9AC;
+    color: #898989;
     transition: 0.1s;
 }
 
 .nav_link:hover {
-    color: rgb(239, 239, 239);;
+    color: var(--primary-color);
 }

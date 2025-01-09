@@ -1,12 +1,11 @@
 #output {
-    border: 1px solid;
     box-sizing: border-box;
     padding: 20px;
-    width: 600px;
 }
 
 #formatted-text {
     padding: 10px;
-    height: 60vh;
-    background-color: black;
+    border-radius: var(--border-radius);
+    text-wrap: 'wrap';
+    overflow: scroll;
 }

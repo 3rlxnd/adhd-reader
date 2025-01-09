@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 
 function App() {
   const [text, setText] = useState("Please enter your Text above")
-  console.log(text)
+  
   return (
     <>
       <Header></Header>

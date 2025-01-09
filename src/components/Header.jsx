@@ -1,15 +1,16 @@
 import "./Header.css";
+import Theme from "./Theme";
+import Language from "./Language";
 
 function Header() {
     return <header>
         {/* <img id="logo" src="/logo.png" alt="Logo"/> */}
-        <p>ADA</p>
+        <i id="logo" class="fa-solid fa-eye"></i>
         <nav id="nav">
-                <a aria-label="Coverter" href="/interface" className="nav_link">Coverter</a>
-                <a href="/docs" className="nav_link">Language</a>
+                <Theme></Theme>
+                <Language></Language>
         </nav>
     </header>
-    
 }
 
 export default Header
