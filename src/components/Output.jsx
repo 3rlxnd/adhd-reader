@@ -31,7 +31,7 @@ function Output({ text }) {
         return text.split(" ").map((word) => formatWord(word));
     };
     return <section id="output">
-         <p class="title">Output</p>
+         <p className="title">Output</p>
         <p id="formatted-text" style={{flexWrap: "wrap"}}>{formatText(text)}</p>
     </section>
 }

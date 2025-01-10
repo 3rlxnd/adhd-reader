@@ -5,10 +5,13 @@ import Language from "./Language";
 function Header() {
     return <header>
         {/* <img id="logo" src="/logo.png" alt="Logo"/> */}
-        <i id="logo" className="fa-solid fa-eye"></i>
+        <div style={{display: 'flex', alignItems: 'center', gap: '20px'}}>
+            <i id="logo" className="fa-solid fa-eye"></i>
+            <p style={{margin: 0}}>ADHD Reader</p>
+        </div>
         <nav id="nav">
-                <Theme></Theme>
-                <Language></Language>
+            <Theme></Theme>
+            <Language></Language>
         </nav>
     </header>
 }

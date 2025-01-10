@@ -12,8 +12,8 @@ function Theme() {
         document.body.classList.toggle("dark-theme", newTheme === "dark");
     };
 
-    return <button class="nav_link" aria-label="Theme Toggle Button" onClick={toggleTheme}>
-        {theme === "light" ? <i class="fa-solid fa-moon theme-icon"></i> : <i class="fa-solid fa-sun theme-icon"></i>}
+    return <button className="nav_link" aria-label="Theme Toggle Button" onClick={toggleTheme}>
+        {theme === "light" ? <i className="fa-solid fa-moon theme-icon"></i> : <i className="fa-solid fa-sun theme-icon"></i>}
     </button>
 
 }
