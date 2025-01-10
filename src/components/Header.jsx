@@ -5,7 +5,7 @@ import Language from "./Language";
 function Header() {
     return <header>
         {/* <img id="logo" src="/logo.png" alt="Logo"/> */}
-        <i id="logo" class="fa-solid fa-eye"></i>
+        <i id="logo" className="fa-solid fa-eye"></i>
         <nav id="nav">
                 <Theme></Theme>
                 <Language></Language>

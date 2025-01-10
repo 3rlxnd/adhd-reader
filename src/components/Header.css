@@ -18,7 +18,7 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
 }
 
 .nav_link {
@@ -26,8 +26,15 @@ nav {
     text-decoration: none;
     color: #898989;
     transition: 0.1s;
+    padding: 0;
 }
 
 .nav_link:hover {
     color: var(--primary-color);
 }
+
+@media screen and (max-width: 1024px) {
+    nav {
+      gap: 15px;
+    }
+  }

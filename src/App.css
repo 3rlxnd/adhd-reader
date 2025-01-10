@@ -29,10 +29,13 @@
 
 .title {
   margin: 0;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 1024px) {
   #converter {
     flex-direction: column;
   }
+
+  
 }
